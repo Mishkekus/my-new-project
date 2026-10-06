@@ -13,7 +13,7 @@
 
 ## Ссылки
 [GitHub](https://github.com)
-
+[doykitochkacom](https://twitch.tv/koryamc)
 [Yandex](https://ya.ru)
 
 ## Текст
@@ -30,9 +30,17 @@
 
 
 ```python
-
-print('Hello world!')
-print(1+1)
+def merge_dicts(dict1, dict2):
+    result_dict = dict.copy(dict1)
+    for k, v in dict2.items():
+        if k in result_dict:
+            if isinstance(result_dict[k], list):
+                result_dict[k].append(v)
+            else:
+               result_dict[k] = [result_dict[k], v]
+        else:
+            result_dict[k] = v
+    return result_dict
 ```
 ## Разделитель 
 
