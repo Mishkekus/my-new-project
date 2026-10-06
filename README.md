@@ -14,7 +14,7 @@
 ## Ссылки
 [GitHub](https://github.com)
 
-[Yandex][https://ya.ru]
+[Yandex](https://ya.ru)
 
 ## Текст
 Обычный текст. Без разрыва строки.
